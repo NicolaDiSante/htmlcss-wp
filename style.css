@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.container.main.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-full {
+  width: 50%;
+  margin: auto;
+}
+
+.container.top {
+  height: 100%;
+}
+
+img.logo {
+  height: 60%;
+  width: 20%;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  font-size: 13px;
+  padding-right: 5px;
+  text-transform: uppercase;
+}
+
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  font-size: 20px;
+  color: rgba(64, 133, 64, 0.719);
+}
+
+.container.banner {
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2%;
+}
+
+.content.banner {
+  padding-top: 230px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 200px;
+}
+
+h2 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+p.text.banner {
+  color: white;
+}
+
+p {
+  font-size: 11px;
+  color: rgb(165, 129, 63);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+section.col {
+  margin-top: 20px;
+}
+
+.col {
+  float: left;
+}
+
+.col.left,
+.col.right {
+  width: 20%;
+}
+
+.col.center {
+  width: 56%;
+  margin: 0 2%;
+}
+
+span {
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.picture {
+  width: 100%;
+  height: 120px;
+  border-radius: 3%;
+  background-size: cover;
+  background-position: center;
+}
+
+.picture.side.left {
+  background-image: url(img/img-1.jpg);
+}
+
+.picture.middle {
+  background-image: url(img/banner-2.jpg);
+}
+
+.picture.side.right {
+  background-image: url(img/img-3.jpg);
+}
+
+h4 {
+  font-size: 14px;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+#cuore:after {
+  content: "\01F49C";
+}
+
+.opacity {
+  display: inline-block;
+  background-color: rgba(99, 99, 99, 0.2);
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+}
